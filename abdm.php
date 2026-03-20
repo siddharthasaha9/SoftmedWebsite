@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-           <!-- Google tag (gtag.js) -->
+   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XRZP2LH2MT"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,373 +16,500 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TKNZS2D6');</script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="description" content="ABDM & ABHA Integrated TeleRad Web Portal">
-  <meta name="keywords" content="ABDM & ABHA Integrated TeleRad Web Portal, Remote Diagnostics Management Service, cloud based innovative Teleradiology service platform, PACS and DICOM technologies">
+<!-- End Google Tag Manager -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Softmed's ABDM and ABHA integrated TeleRad Web Portal helps hospitals, diagnostic centres, and radiology networks deliver secure, compliant, and connected digital workflows.">
+    <meta name="keywords" content="ABDM portal, ABHA integration, digital health workflow, teleradiology portal, Softmed Technologies, consent management, health records interoperability">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="img/favicon.png" type="image/png">
-
-    <title>ABDM & ABHA Integrated TeleRad Web Portal | Softmed Technologies</title>
-    <!-- Bootstrap CSS -->
+    <title>ABDM &amp; ABHA Integrated TeleRad Web Portal | Softmed Technologies</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="vendors/animate-css/animate.css">
     <script src="https://kit.fontawesome.com/5b7bbad616.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="fonts/font/flaticon.css"> 
-    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="fonts/font/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <style>
-    h3{font-family: "Roboto", sans-serif;
-        color:#000;
-    }
-    	.carousel-indicators li {
-    position: relative;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 10px;
-    height: 10px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, .5);
-    border-radius: 10px;
-}
-.carousel-indicators .active {
-    background-color: #c80d23;
-}
-	.area-heading h3 {
-    margin: 0;
-    font-size: 24px;
-    color:#000;
-    position: relative;
-	font-weight:600;
-	font-family: 'Roboto', sans-serif;
-	}
-	.head_back{    
-	background-color: #c80d23;
-    padding: 5px;
-    margin-bottom: 25px;
-	}
-	.sub_head{ 
-	border-left: 5px solid #29ade6;
-    padding: 4px 10px 7px;
-    font-weight: 600;
-    font-size: 18px;
-	color: #585858;
-    background-color: #ddeff7;
-    border-radius: 0px 50px 50px 50px;
-	}
-	
-	.sub_head1{ 
-	border-left: 5px solid #c80d23;
-    padding: 4px 10px 7px;
-    font-weight: 600;
-    font-size: 18px;
-	color: #585858;
-    background-color: #c80d23c9;
-    border-radius: 0px 50px 50px 50px;
-	}
-	p{text-align: justify;}
-	.box_color{color: #797979;
-    background: #f7dbde;
-    text-align: justify;
-    padding: 20px;
-   
-    height: 250px;
-    list-style-type: none;
-}
-strong {
-    color: #c80d23;font-size: 18px;
-}
-	.the_ul{margin-left:15px;}
-	
-	.the_ul > li:before {    
-    font-family: 'FontAwesome';
-    content: "\f067";
-    margin: 0 10px 0 -15px;
-    color: #ff001e;
-    font-size: 14px;
-    font-weight: bold;
-    background: #89dde5;
-    padding: 9px 11px 9px;
-}
-.the_ul li{margin-bottom: 20px;border: 2px solid #89dde5;
-    background: #e0f6f8;}
-.banner-pacs{
-  position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 350px;
-    background: url(img/banner_tele_web.jpg) no-repeat scroll center center;
-    z-index: 1;
-    background-size: cover;
-}
-.area-heading{margin: 20px 0px 20px;}
-.margin_gap{margin-top: 30px;}
-@media only screen and (max-width: 600px) {
-    .margin_gap1{margin-top: 0px;}
-    .box_color {
-    color: #797979;
-    background: #f7dbde;
-    text-align: justify;
-    padding: 20px;
-   
-    height: 385px;
-    list-style-type: none;
-}
-.the_ul > li:before {
-    font-family: 'FontAwesome';
-    content: "\f067";
-    margin: 0 10px 0 -15px;
-    color: #ff001e;
-    font-size: 14px;
-    font-weight: bold;
-    background: #89dde5;
-    padding: 9px 10px 9px;
-}
-.the_ul li {
-    margin-bottom: 20px;
-    border: 2px solid #89dde5;
-    background: #e0f6f8;
-    font-size: 14px;
-}
-  .banner-pacs{
-  position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 180px;
-    background: url(img/mobile_banner_web.jpg) no-repeat scroll center center;
-    z-index: 1;
-    background-size: cover;
-} 
-.area-heading{margin: -100px 0px 20px;}
-.bread_gap{margin-top: 117px;}
-}
+        h3 {
+            font-family: "Roboto", sans-serif;
+            color: #000;
+        }
 
-.box_style{
-	padding: 30px;
-    border: 1px solid #dedede;
-    border-radius: 7px;
-    background-color: white;
-    text-align: center;
-	margin-bottom:30px;
-	transition:.3s;
-}
-.i_style{ 
-    color: #23abe5;
-    margin-top: 28px;
-    display: block;
-    margin-bottom: 17px;
-}
+        .area-heading h3 {
+            margin: 0;
+            font-size: 24px;
+            color: #000;
+            position: relative;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+        }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    font-family: Flaticon;
-    font-size: 75px;
-    font-style: normal;
-    margin-left: 0px;
-	margin-bottom: 20px;
-}
+        p {
+            text-align: justify;
+        }
 
-.text_over{ 
-    text-align: justify !important;
-    font-size: 13px;
-    padding: 0px;
-    display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    height: 110px;
-    transition: .5s;
-}
- 
-h4.box-head {
-    min-height: 42px;
-}
+        .banner-pacs {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            min-height: 350px;
+            background: linear-gradient(90deg, rgba(10, 36, 77, 0.86), rgba(27, 117, 188, 0.60)), url(img/banner_tele_web.jpg) no-repeat center center;
+            background-size: cover;
+            z-index: 1;
+        }
 
+        .hero-content {
+            max-width: 760px;
+            color: #fff;
+            padding: 70px 0 60px;
+        }
 
-@media only screen and (max-width:767px){
-.box_style{ padding: 15px;}
-.text_over{}
-}
-	</style>
+        .hero-content h1 {
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 18px;
+        }
+
+        .hero-content p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.92);
+            margin-bottom: 0;
+        }
+
+        .bread_gap {
+            margin-top: 35px;
+        }
+
+        .area-heading {
+            margin: 20px 0 20px;
+        }
+
+        .section-card {
+            background: #ffffff;
+            border: 1px solid #e4edf5;
+            border-radius: 14px;
+            padding: 30px;
+            box-shadow: 0 12px 35px rgba(28, 52, 84, 0.08);
+            height: 100%;
+            margin-bottom: 30px;
+        }
+
+        .section-card h4,
+        .section-card h5 {
+            color: #c80d23;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .stats-strip {
+            margin-top: -55px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stat-box {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(28, 52, 84, 0.10);
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 4px solid #23abe5;
+            margin-bottom: 25px;
+            min-height: 165px;
+        }
+
+        .stat-box h3 {
+            color: #c80d23;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .stat-box p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .feature-card {
+            background: #f8fbfe;
+            border: 1px solid #dcecf8;
+            border-radius: 12px;
+            padding: 28px 24px;
+            height: 100%;
+            transition: .3s;
+            margin-bottom: 30px;
+        }
+
+        .feature-card:hover,
+        .section-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 30px rgba(28, 52, 84, 0.12);
+        }
+
+        .feature-icon {
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #23abe5, #1b75bc);
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            margin-bottom: 18px;
+        }
+
+        .feature-card h5 {
+            color: #1d3557;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .feature-card p,
+        .process-list li,
+        .benefit-list li {
+            text-align: left;
+        }
+
+        .process-list,
+        .benefit-list {
+            padding-left: 18px;
+            margin-bottom: 0;
+        }
+
+        .process-list li,
+        .benefit-list li {
+            margin-bottom: 12px;
+            color: #5b6677;
+        }
+
+        .highlight-panel {
+            background: linear-gradient(135deg, #c80d23, #96253a);
+            color: #fff;
+            border-radius: 14px;
+            padding: 32px;
+            box-shadow: 0 14px 30px rgba(200, 13, 35, 0.18);
+        }
+
+        .highlight-panel h4,
+        .highlight-panel p,
+        .highlight-panel li {
+            color: #fff;
+        }
+
+        .logo-stack img {
+            max-height: 64px;
+            margin-right: 16px;
+            margin-bottom: 12px;
+        }
+
+        .workflow-img,
+        .portal-shot {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 12px 28px rgba(28, 52, 84, 0.14);
+            border: 1px solid #e4edf5;
+        }
+
+        .cta-box {
+            background: linear-gradient(90deg, rgba(35, 171, 229, 0.08), rgba(200, 13, 35, 0.08));
+            border: 1px solid #d9e9f5;
+            border-radius: 14px;
+            padding: 35px 32px;
+            margin-top: 15px;
+        }
+
+        .btn-brand,
+        .btn-brand-outline {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: .3s;
+        }
+
+        .btn-brand {
+            background: #c80d23;
+            color: #fff;
+        }
+
+        .btn-brand:hover {
+            background: #a00b1c;
+            color: #fff;
+        }
+
+        .btn-brand-outline {
+            border: 1px solid #23abe5;
+            color: #23abe5;
+        }
+
+        .btn-brand-outline:hover {
+            background: #23abe5;
+            color: #fff;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .banner-pacs {
+                min-height: 220px;
+                background: linear-gradient(90deg, rgba(10, 36, 77, 0.88), rgba(27, 117, 188, 0.65)), url(img/mobile_banner_web.jpg) no-repeat center center;
+                background-size: cover;
+            }
+
+            .hero-content {
+                padding: 35px 0 25px;
+            }
+
+            .hero-content h1 {
+                font-size: 28px;
+            }
+
+            .hero-content p {
+                font-size: 15px;
+            }
+
+            .bread_gap {
+                margin-top: 20px;
+            }
+
+            .stats-strip {
+                margin-top: 15px;
+            }
+
+            .section-card,
+            .feature-card,
+            .highlight-panel,
+            .cta-box {
+                padding: 22px;
+            }
+        }
+    </style>
 </head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKNZS2D6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php include'demo-button.php'?>
+<?php include'header_link.php'?>
 
-<body class="bg-white text-gray-800">
-
-  <!-- HERO -->
-  <section class="bg-blue-600 text-white py-16 text-center">
-    <div class="max-w-6xl mx-auto px-6">
-      <h1 class="text-3xl md:text-4xl font-bold mb-4">
-        ABDM & ABHA Integrated TeleRad Web Portal
-      </h1>
-      <p class="text-lg">
-        Fully compliant with ABDM (M1, M2, M3) enabling seamless digital healthcare integration across India.
-      </p>
-    </div>
-  </section>
-
-  <!-- WHAT IS ABDM -->
-  <section class="py-12">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-2xl font-semibold mb-4">What is ABDM?</h2>
-      
-      <p class="text-gray-600 leading-relaxed mb-6">
-        Ayushman Bharat Digital Mission (ABDM) is a national initiative to build a unified digital health ecosystem,
-        enabling secure exchange of patient data across hospitals, labs, and healthcare providers.
-      </p>
-
-      <!-- Added Image -->
-      <div class="flex justify-center">
-        <img 
-          src="img/abdmworkflow.png" 
-          alt="ABDM Digital Health Ecosystem"
-          class="rounded-lg shadow-md w-full max-w-3xl"
-        />
-      </div>
-
-    </div>
-  </section>
-
-  <!-- FEATURES -->
-  <section class="bg-gray-50 py-12">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold text-center mb-8">ABDM Features</h2>
-
-      <div class="grid md:grid-cols-3 gap-6 text-center">
-        <div class="bg-white p-4 border">ABHA Creation & Verification</div>
-        <div class="bg-white p-4 border">ABHA Address Integration</div>
-        <div class="bg-white p-4 border">Consent Management</div>
-        <div class="bg-white p-4 border">QR-based Registration</div>
-        <div class="bg-white p-4 border">Health Record Linking</div>
-        <div class="bg-white p-4 border">Secure API Integration</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ABHA -->
-  <section class="py-12">
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
-      
-      <div>
-        <h2 class="text-2xl font-semibold mb-4">Understanding ABHA</h2>
-        <p class="text-gray-600 mb-3">
-          ABHA is a unique digital health identity that allows patients to access and share medical records securely.
-        </p>
-        <p><b>ABHA Number:</b> 14-digit unique ID</p>
-        <p><b>ABHA Address:</b> user@abdm</p>
-      </div>
-
-      <div class="bg-gray-100 h-56 flex items-center justify-center">
-        <span class="text-gray-400">ABHA Card Image</span>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- COMPONENTS -->
-  <section class="bg-gray-50 py-12">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold text-center mb-8">ABDM Components</h2>
-
-      <div class="grid md:grid-cols-3 gap-6 text-center">
-        <div class="bg-white p-4 border">
-          <b>HFR</b><br/>
-          Health Facility Registry
+<section class="banner_area">
+    <div class="d-flex align-items-center">
+        <div class="container-fluid" style="padding:0px;">
+            <div class="banner-pacs">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="logo-stack">
+                            <img src="img/ABDMLogo.png" alt="ABDM Logo">
+                            <img src="img/SoftmedABDMBadge.png" alt="Softmed ABDM Badge">
+                        </div>
+                        <h1>ABDM &amp; ABHA Integrated TeleRad Web Portal</h1>
+                        <p>Deliver a modern digital health experience with a secure, standards-aligned portal that connects patient identity, consented record exchange, and radiology workflows into one professional operating environment.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="bg-white p-4 border">
-          <b>HPR</b><br/>
-          Healthcare Professionals Registry
+    </div>
+</section>
+
+<div class="container stats-strip">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="stat-box">
+                <h3>ABHA-ready</h3>
+                <p>Enable patient identity creation, verification, and discovery within your reporting workflow.</p>
+            </div>
         </div>
-        <div class="bg-white p-4 border">
-          <b>PHR</b><br/>
-          Personal Health Records
+        <div class="col-md-4">
+            <div class="stat-box">
+                <h3>Consent-led</h3>
+                <p>Support secure data sharing using ABDM-aligned consent management principles and interoperable exchange.</p>
+            </div>
         </div>
-      </div>
+        <div class="col-md-4">
+            <div class="stat-box">
+                <h3>Workflow-focused</h3>
+                <p>Designed for hospitals, imaging centres, and tele-radiology teams that need compliance without complexity.</p>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
 
-  <!-- INCENTIVES -->
-  <section class="py-12 text-center">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold mb-4">Digital Health Incentive Scheme</h2>
-      <p class="text-gray-600 mb-4">
-        Healthcare providers can earn incentives by adopting ABDM-compliant systems.
-      </p>
-      <div class="text-3xl font-bold text-blue-600">
-        Incentives up to ₹4 Crore
-      </div>
+<div class="container bread_gap">
+    <div class="section-top-border">
+        <div class="area-heading row">
+            <div class="col-md-12 col-xl-12" style="padding:0px;">
+                <div class="page_link text-left" style="margin-bottom:20px;">
+                    <a href="index.php">Home</a> /
+                    <a href="abdm.php">ABDM &amp; ABHA Integrated TeleRad Web Portal</a>
+                </div>
+            </div>
+            <div class="col-md-12 col-xl-12 text-left" style="padding:0px;">
+                <h3>Connected Digital Health Infrastructure for Modern Diagnostic Networks</h3>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
 
-  <!-- BENEFITS -->
-  <section class="bg-gray-50 py-12">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold text-center mb-8">Benefits</h2>
+<div class="container" style="padding-bottom:50px;">
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="section-card">
+                <h4>Built for the next generation of patient-centric care</h4>
+                <p>Softmed's ABDM and ABHA integrated TeleRad Web Portal is engineered to help healthcare organisations move from disconnected systems to a coordinated digital care experience. The platform brings together patient identification, consent-aware data exchange, radiology workflows, and connected reporting in a single professional interface.</p>
+                <p>Whether you operate a hospital, diagnostic centre, tele-radiology network, or distributed imaging practice, the portal supports reliable digital interactions across stakeholders while preserving security, auditability, and ease of use. The result is faster onboarding, better continuity of care, improved operational visibility, and stronger readiness for digital health initiatives.</p>
+                <p>Our approach combines Softmed's practical experience in PACS and tele-radiology with a clean, enterprise-grade user experience so your team can adopt ABDM-aligned workflows confidently and at scale.</p>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="section-card">
+                <img src="img/abdmworkflow.png" alt="ABDM workflow overview" class="workflow-img">
+            </div>
+        </div>
 
-      <div class="grid md:grid-cols-4 gap-6 text-center">
-        <div class="bg-white p-4 border">Faster Workflow</div>
-        <div class="bg-white p-4 border">Unified Records</div>
-        <div class="bg-white p-4 border">Secure Access</div>
-        <div class="bg-white p-4 border">Incentive Revenue</div>
-      </div>
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <span class="feature-icon"><i class="fas fa-id-card"></i></span>
+                        <h5>ABHA creation &amp; verification</h5>
+                        <p>Support verified digital health identity workflows to simplify registration, improve data accuracy, and reduce duplicate records.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <span class="feature-icon"><i class="fas fa-user-shield"></i></span>
+                        <h5>Consent-aware record exchange</h5>
+                        <p>Facilitate responsible health information sharing with visibility into patient consent and digitally governed transactions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <span class="feature-icon"><i class="fas fa-qrcode"></i></span>
+                        <h5>Faster patient onboarding</h5>
+                        <p>Accelerate front-desk and remote workflows through streamlined registration, identity linking, and digital discovery.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <span class="feature-icon"><i class="fas fa-file-medical-alt"></i></span>
+                        <h5>Unified diagnostic records</h5>
+                        <p>Bring radiology studies, reports, and linked health records closer together to support continuity and informed clinical decisions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <span class="feature-icon"><i class="fas fa-network-wired"></i></span>
+                        <h5>Interoperable digital architecture</h5>
+                        <p>Designed to fit within broader health IT ecosystems with secure APIs, structured workflows, and dependable integration paths.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <span class="feature-icon"><i class="fas fa-hospital-user"></i></span>
+                        <h5>Professional user experience</h5>
+                        <p>Equip administrators, clinicians, and reporting teams with a refined interface that balances compliance, speed, and usability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="section-card">
+                <h4>Understanding the ABDM ecosystem</h4>
+                <p>Ayushman Bharat Digital Mission (ABDM) aims to build an integrated digital health ecosystem that enables trusted exchange of health information between patients, healthcare providers, and technology systems. Within that ecosystem, ABHA serves as the foundational digital health identity layer, helping link the right patient to the right digital records and interactions.</p>
+                <ul class="benefit-list">
+                    <li><strong style="font-size:15px; color:#c80d23;">ABHA Number:</strong> A unique digital identifier that supports reliable patient identification across connected workflows.</li>
+                    <li><strong style="font-size:15px; color:#c80d23;">ABHA Address:</strong> A discoverable address that helps enable secure and interoperable sharing of health information.</li>
+                    <li><strong style="font-size:15px; color:#c80d23;">Consent framework:</strong> A mechanism to support patient-authorised information flow in a transparent and accountable manner.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="highlight-panel">
+                <h4>Why this matters for diagnostic organisations</h4>
+                <ul class="benefit-list">
+                    <li>Improve patient onboarding quality and reduce identity-related registration friction.</li>
+                    <li>Prepare your organisation for broader digital health interoperability expectations.</li>
+                    <li>Enhance service delivery by connecting reporting workflows with patient-facing digital infrastructure.</li>
+                    <li>Strengthen trust through secure, trackable, and standards-conscious information exchange.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="section-card">
+                <h5>For hospitals &amp; imaging centres</h5>
+                <ol class="process-list">
+                    <li>Establish ABDM-aligned registration and patient identity workflows.</li>
+                    <li>Integrate ABHA-driven onboarding into operational touchpoints.</li>
+                    <li>Enable compliant diagnostic reporting and connected information exchange.</li>
+                    <li>Build a stronger digital patient experience across departments and sites.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="section-card">
+                <h5>For tele-radiology networks</h5>
+                <ol class="process-list">
+                    <li>Standardise identity and record linkage across distributed centres.</li>
+                    <li>Support more reliable case routing and digital reporting workflows.</li>
+                    <li>Align operations with modern interoperability and security expectations.</li>
+                    <li>Create a scalable foundation for network-wide digital health adoption.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="section-card">
+                <h5>For digital transformation leaders</h5>
+                <ol class="process-list">
+                    <li>Deploy a solution that reflects real healthcare workflow requirements.</li>
+                    <li>Reduce complexity through one coordinated platform experience.</li>
+                    <li>Improve visibility, governance, and patient record consistency.</li>
+                    <li>Accelerate digital maturity with a professional, practical implementation path.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="section-card">
+                <img src="img/tele-webportal1.jpg" alt="Softmed portal interface preview" class="portal-shot">
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <div class="cta-box">
+                <h4 style="color:#1d3557; font-weight:600;">Why choose Softmed</h4>
+                <p>Softmed combines domain expertise in tele-radiology, PACS, and hospital workflow digitisation with a product vision focused on reliability, professionalism, and real-world adoption. Our ABDM and ABHA integrated portal is not just a compliance layer—it is a practical operating platform built to elevate patient engagement and diagnostic efficiency together.</p>
+                <p style="margin-bottom:25px;">If you are looking for a refined digital health workflow that reflects both operational depth and a modern user experience, our team can help you move from concept to deployment with confidence.</p>
+                <a href="contact.php" class="btn-brand">Talk to Softmed</a>
+                <a href="https://teleraddemo.softmedtech.com" target="_blank" class="btn-brand-outline" style="margin-left:10px;">Request a Demo</a>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
 
-  <!-- STEPS -->
-  <section class="py-12">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold text-center mb-8">How to Get Started</h2>
+<?php include'footer.php'?>
 
-      <table class="w-full border">
-        <tr>
-
-          <!-- Healthcare -->
-          <td class="w-1/2 p-6 border align-top">
-            <h3 class="font-semibold mb-4 text-center">Healthcare Facilities</h3>
-            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
-              <li>Register in HFR</li>
-              <li>Deploy ABDM software</li>
-              <li>Enable ABHA workflows</li>
-              <li>Start transactions</li>
-              <li>Claim incentives</li>
-            </ol>
-          </td>
-
-          <!-- DSC -->
-          <td class="w-1/2 p-6 border align-top">
-            <h3 class="font-semibold mb-4 text-center">Digital Solution Companies</h3>
-            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
-              <li>Register under ABDM</li>
-              <li>Integrate APIs</li>
-              <li>Enable consent system</li>
-              <li>Go live</li>
-              <li>Earn incentives</li>
-            </ol>
-          </td>
-
-        </tr>
-      </table>
-
-    </div>
-  </section>
-
-  <!-- WHY SOFTMED -->
-  <section class="bg-blue-600 text-white py-12 text-center">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold mb-4">Why Softmed?</h2>
-      <p>
-        Integrated PACS, RIS, and TeleRad ecosystem with strong ABDM compliance and real-world hospital workflows.
-      </p>
-    </div>
-  </section>
-
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/theme.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+<?php include'header-js.php';?>
 </body>
 </html>
