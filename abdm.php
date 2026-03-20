@@ -64,9 +64,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         .hero-content {
-            max-width: 760px;
             color: #fff;
             padding: 70px 0 60px;
+        }
+
+        .hero-layout {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+        }
+
+        .hero-copy {
+            max-width: 690px;
         }
 
         .hero-content h1 {
@@ -204,10 +214,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             color: #fff;
         }
 
+        .logo-showcase {
+            min-width: 290px;
+            max-width: 360px;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 22px;
+            padding: 24px 22px;
+            box-shadow: 0 20px 45px rgba(4, 18, 41, 0.24);
+            text-align: center;
+        }
+
+        .logo-showcase-label {
+            display: inline-block;
+            font-size: 13px;
+            letter-spacing: 1.8px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #c80d23;
+            margin-bottom: 18px;
+        }
+
+        .logo-stack {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+        }
+
         .logo-stack img {
-            max-height: 64px;
-            margin-right: 16px;
-            margin-bottom: 12px;
+            width: 100%;
+            max-width: 270px;
+            background: #fff;
+            border-radius: 16px;
+            padding: 14px 18px;
+            box-shadow: 0 12px 28px rgba(20, 53, 93, 0.14);
+            border: 1px solid #e4edf5;
+        }
+
+        .logo-showcase p {
+            margin: 18px 0 0;
+            color: #345;
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.6;
         }
 
         .workflow-img,
@@ -266,6 +315,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 padding: 35px 0 25px;
             }
 
+            .hero-layout {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 22px;
+            }
+
+            .hero-copy {
+                max-width: 100%;
+            }
+
+            .logo-showcase {
+                min-width: 100%;
+                max-width: 100%;
+                padding: 20px 18px;
+            }
+
+            .logo-stack img {
+                max-width: 220px;
+            }
+
             .hero-content h1 {
                 font-size: 28px;
             }
@@ -305,12 +374,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="banner-pacs">
                 <div class="container">
                     <div class="hero-content">
-                        <div class="logo-stack">
-                            <img src="img/ABDMLogo.png" alt="ABDM Logo">
-                            <img src="img/SoftmedABDMBadge.png" alt="Softmed ABDM Badge">
+                        <div class="hero-layout">
+                            <div class="hero-copy">
+                                <h1>ABDM &amp; ABHA Integrated TeleRad Web Portal</h1>
+                                <p>Deliver a modern digital health experience with a secure, standards-aligned portal that connects patient identity, consented record exchange, and radiology workflows into one professional operating environment.</p>
+                            </div>
+                            <div class="logo-showcase">
+                                <span class="logo-showcase-label">ABDM Integrated</span>
+                                <div class="logo-stack">
+                                    <img src="img/ABDMLogo.png" alt="ABDM Logo">
+                                    <img src="img/SoftmedABDMBadge.png" alt="Softmed ABDM Badge">
+                                </div>
+                                <p>Dedicated ABDM and Softmed branding is now highlighted upfront for stronger visibility and immediate recognition.</p>
+                            </div>
                         </div>
-                        <h1>ABDM &amp; ABHA Integrated TeleRad Web Portal</h1>
-                        <p>Deliver a modern digital health experience with a secure, standards-aligned portal that connects patient identity, consented record exchange, and radiology workflows into one professional operating environment.</p>
                     </div>
                 </div>
             </div>
