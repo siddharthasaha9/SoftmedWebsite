@@ -1,0 +1,124 @@
+[20-Sep-2022 19:23:50 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[07-Oct-2022 19:32:05 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[08-Oct-2022 08:12:55 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:12:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php:240
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): postRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:13:09 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:13:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php:240
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): postRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:13:14 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php on line 195
+[08-Oct-2022 08:13:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php:195
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): eventhandlerRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'eventhandler', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'eventhandler', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php on line 195
+[08-Oct-2022 08:21:12 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php on line 195
+[08-Oct-2022 08:21:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php:195
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): eventhandlerRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'eventhandler', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'eventhandler', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php on line 195
+[08-Oct-2022 08:29:57 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php on line 195
+[08-Oct-2022 08:29:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php:195
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): eventhandlerRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'eventhandler', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'eventhandler', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.eventhandler.admin.php on line 195
+[08-Oct-2022 08:30:08 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php:240
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): postRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:30:21 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php:240
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): postRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:38:48 UTC] PHP Warning:  Undefined variable $post_list in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[08-Oct-2022 08:38:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function display() on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php:240
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.core.php(474): postRateItModuleAdmin::adminRateItModuleRecordsTab(Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/index.modules.php(77): dcCore->callBehavior('adminRateItModu...', Object(dcCore), 'post', 'plugin.php?p=ra...', '<input type="hi...')
+#2 /home3/softmz3n/public_html/softmedblog/plugins/rateIt/index.php(92): include('/home3/softmz3n...')
+#3 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#4 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.post.admin.php on line 240
+[11-Nov-2022 09:20:42 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:20:42 UTC] PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, string given in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php:347
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php(347): vsprintf('%s', 'Activity report...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php(53): activityReportLib::logTab(Object(dcCore), 'Logs')
+#2 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#3 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php on line 347
+[11-Nov-2022 09:22:52 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:22:52 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:22:52 UTC] PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, string given in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php:347
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php(347): vsprintf('%s', 'Activity report...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php(53): activityReportLib::logTab(Object(dcCore), 'Logs')
+#2 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#3 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php on line 347
+[11-Nov-2022 09:25:07 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:25:07 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:25:07 UTC] PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, string given in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php:347
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php(347): vsprintf('%s', 'Activity report...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php(53): activityReportLib::logTab(Object(dcCore), 'Logs')
+#2 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#3 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php on line 347
+[11-Nov-2022 09:25:21 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:25:21 UTC] PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, string given in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php:347
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php(347): vsprintf('%s', 'Activity report...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php(53): activityReportLib::logTab(Object(dcCore), 'Logs')
+#2 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#3 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php on line 347
+[11-Nov-2022 09:25:22 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[11-Nov-2022 09:25:22 UTC] PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, string given in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php:347
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php(347): vsprintf('%s', 'Activity report...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php(53): activityReportLib::logTab(Object(dcCore), 'Logs')
+#2 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#3 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php on line 347
+[18-Jan-2023 10:38:22 UTC] PHP Warning:  Undefined variable $section in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php on line 35
+[18-Jan-2023 10:38:22 UTC] PHP Fatal error:  Uncaught TypeError: vsprintf(): Argument #2 ($values) must be of type array, string given in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php:347
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php(347): vsprintf('%s', 'Activity report...')
+#1 /home3/softmz3n/public_html/softmedblog/plugins/activityReport/index.php(53): activityReportLib::logTab(Object(dcCore), 'Logs')
+#2 /home3/softmz3n/public_html/softmedblog/admin/plugin.php(41): include('/home3/softmz3n...')
+#3 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/plugins/activityReport/inc/lib.activity.report.index.php on line 347

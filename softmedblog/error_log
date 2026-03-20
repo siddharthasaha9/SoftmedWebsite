@@ -1,0 +1,65 @@
+[20-Sep-2022 19:14:27 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home3/softmz3n/public_html/softmedblog/update_pass.php on line 17
+[08-Oct-2022 08:14:08 UTC] PHP Warning:  Undefined variable $post in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.comment.public.php on line 24
+[08-Oct-2022 08:14:08 UTC] PHP Warning:  Attempt to read property "post_url" on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.comment.public.php on line 24
+[08-Oct-2022 08:16:58 UTC] PHP Warning:  Undefined variable $post in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.comment.public.php on line 24
+[08-Oct-2022 08:16:58 UTC] PHP Warning:  Attempt to read property "post_url" on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.comment.public.php on line 24
+[08-Oct-2022 08:46:40 UTC] PHP Warning:  Undefined variable $post in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.comment.public.php on line 24
+[08-Oct-2022 08:46:40 UTC] PHP Warning:  Attempt to read property "post_url" on null in /home3/softmz3n/public_html/softmedblog/plugins/rateIt/inc/modules/lib.rateit.module.comment.public.php on line 24
+[05-Sep-2023 08:00:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php:154) in /home3/softmz3n/public_html/softmedblog/inc/core_error.php on line 11
+[05-Sep-2023 08:00:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php:154) in /home3/softmz3n/public_html/softmedblog/inc/core_error.php on line 12
+[07-Feb-2026 11:41:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function dcXmlRpc::pingback_ping(), 0 passed in /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php on line 940 and exactly 2 expected in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php:1778
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(940): dcXmlRpc->pingback_ping()
+#1 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(1255): xmlrpcServer->call('pingback.ping', Array)
+#2 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(377): xmlrpcIntrospectionServer->call('pingback.ping', Array)
+#3 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(875): dcXmlRpc->call('pingback.ping', Array)
+#4 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(371): xmlrpcServer->serve('<?xml version="...')
+#5 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(713): dcXmlRpc->serve()
+#6 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/url.handler/class.url.handler.php(148): dcUrlHandlers::xmlrpc('default')
+#7 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(201): urlHandler->callHandler('xmlrpc', 'default')
+#8 /home3/softmz3n/public_html/softmedblog/inc/public/prepend.php(192): dcUrlHandlers->getDocument()
+#9 /home3/softmz3n/public_html/softmedblog/index.php(17): require('/home3/softmz3n...')
+#10 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php on line 1778
+[07-Feb-2026 11:41:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function dcXmlRpc::pingback_ping(), 0 passed in /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php on line 940 and exactly 2 expected in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php:1778
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(940): dcXmlRpc->pingback_ping()
+#1 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(1255): xmlrpcServer->call('pingback.ping', Array)
+#2 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(377): xmlrpcIntrospectionServer->call('pingback.ping', Array)
+#3 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(875): dcXmlRpc->call('pingback.ping', Array)
+#4 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(371): xmlrpcServer->serve('<?xml version="...')
+#5 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(713): dcXmlRpc->serve()
+#6 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/url.handler/class.url.handler.php(148): dcUrlHandlers::xmlrpc('default')
+#7 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(201): urlHandler->callHandler('xmlrpc', 'default')
+#8 /home3/softmz3n/public_html/softmedblog/inc/public/prepend.php(192): dcUrlHandlers->getDocument()
+#9 /home3/softmz3n/public_html/softmedblog/index.php(17): require('/home3/softmz3n...')
+#10 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php on line 1778
+[10-Feb-2026 22:52:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function dcXmlRpc::pingback_ping(), 0 passed in /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php on line 940 and exactly 2 expected in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php:1778
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(940): dcXmlRpc->pingback_ping()
+#1 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(1255): xmlrpcServer->call('pingback.ping', Array)
+#2 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(377): xmlrpcIntrospectionServer->call('pingback.ping', Array)
+#3 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(875): dcXmlRpc->call('pingback.ping', Array)
+#4 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(371): xmlrpcServer->serve('<?xml version="...')
+#5 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(713): dcXmlRpc->serve()
+#6 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/url.handler/class.url.handler.php(148): dcUrlHandlers::xmlrpc('default')
+#7 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(201): urlHandler->callHandler('xmlrpc', 'default')
+#8 /home3/softmz3n/public_html/softmedblog/inc/public/prepend.php(192): dcUrlHandlers->getDocument()
+#9 /home3/softmz3n/public_html/softmedblog/index.php(17): require('/home3/softmz3n...')
+#10 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php on line 1778
+[10-Feb-2026 22:52:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function dcXmlRpc::pingback_ping(), 0 passed in /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php on line 940 and exactly 2 expected in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php:1778
+Stack trace:
+#0 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(940): dcXmlRpc->pingback_ping()
+#1 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(1255): xmlrpcServer->call('pingback.ping', Array)
+#2 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(377): xmlrpcIntrospectionServer->call('pingback.ping', Array)
+#3 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/net.xmlrpc/class.net.xmlrpc.php(875): dcXmlRpc->call('pingback.ping', Array)
+#4 /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php(371): xmlrpcServer->serve('<?xml version="...')
+#5 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(713): dcXmlRpc->serve()
+#6 /home3/softmz3n/public_html/softmedblog/inc/libs/clearbricks/url.handler/class.url.handler.php(148): dcUrlHandlers::xmlrpc('default')
+#7 /home3/softmz3n/public_html/softmedblog/inc/public/lib.urlhandlers.php(201): urlHandler->callHandler('xmlrpc', 'default')
+#8 /home3/softmz3n/public_html/softmedblog/inc/public/prepend.php(192): dcUrlHandlers->getDocument()
+#9 /home3/softmz3n/public_html/softmedblog/index.php(17): require('/home3/softmz3n...')
+#10 {main}
+  thrown in /home3/softmz3n/public_html/softmedblog/inc/core/class.dc.xmlrpc.php on line 1778

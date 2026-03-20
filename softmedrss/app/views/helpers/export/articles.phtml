@@ -1,0 +1,46 @@
+<?php
+/** @var FreshRSS_View $this */
+$username = Minz_Session::param('currentUser', '_');
+
+$options = JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE;
+
+$articles = array(
+	'id' => 'user/' . str_replace('/', '', $username) . '/state/org.freshrss/' . $this->type,
+	'title' => $this->list_title,
+	'author' => $username,
+	'items' => array(),
+);
+
+echo rtrim(json_encode($articles, $options), " ]}\n\r\t"), "\n";
+$first = true;
+
+if (empty($this->entryIdsTagNames)) {
+	$this->entryIdsTagNames = array();
+}
+
+foreach ($this->entries as $entry) {
+	if ($entry == null) {
+		continue;
+	}
+
+	$feed = $this->feed ?? FreshRSS_CategoryDAO::findFeed($this->categories, $entry->feedId());
+	$entry->_feed($feed);
+
+	if (isset($this->entryIdsTagNames['e_' . $entry->id()])) {
+		$entry->_tags($this->entryIdsTagNames['e_' . $entry->id()]);
+	}
+
+	$article = $entry->toGReader('freshrss');
+
+	$line = json_encode($article, $options);
+	if ($line != '') {
+		if ($first) {
+			$first = false;
+		} else {
+			echo ",\n";
+		}
+		echo $line;
+	}
+}
+
+echo "\n]}\n";

@@ -1,0 +1,8 @@
+<?php /** @var FreshRSS_View $this */ ?>
+<?php
+header('Content-Type: application/json; charset=UTF-8');
+
+FreshRSS::loadStylesAndScripts();
+echo json_encode(array(
+		'tags' => $this->tags,
+	));

@@ -1,0 +1,56 @@
+/* defines the animation */
+@-webkit-keyframes fadeInRight  {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight  {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+p.banner_text {
+  opacity: 0;
+  -webkit-animation: fadeInRight 1s ease-in-out 0s forwards;
+          animation: fadeInRight 1s ease-in-out 0s forwards;
+}
+p.first {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+p.second {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+p.third {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+p.fourth {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+p.fifth {
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+p.sixth {
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+/* now add general css for page */
+

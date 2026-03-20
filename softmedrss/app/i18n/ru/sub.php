@@ -1,0 +1,209 @@
+<?php
+
+/******************************************************************************/
+/* Each entry of that file can be associated with a comment to indicate its   */
+/* state. When there is no comment, it means the entry is fully translated.   */
+/* The recognized comments are (comment matching is case-insensitive):        */
+/*   + TODO: the entry has never been translated.                             */
+/*   + DIRTY: the entry has been translated but needs to be updated.          */
+/*   + IGNORE: the entry does not need to be translated.                      */
+/* When a comment is not recognized, it is discarded.                         */
+/******************************************************************************/
+
+return array(
+	'api' => array(
+		'documentation' => 'Скопируйте URL для использования во внешнем инструменте.',
+		'title' => 'API',	// IGNORE
+	),
+	'bookmarklet' => array(
+		'documentation' => 'Перетяните эту кнопку на вашу панель закладок, или нажмите правой кнопкой мыши и выберите "Добавить ссылку в закладки". Нажимайте кнопку "Подписаться" на любой странице, на которую вы хотите подписаться.<br>',
+		'label' => 'Подписаться',
+		'title' => 'Букмарклет',
+	),
+	'category' => array(
+		'_' => 'Категория',
+		'add' => 'Добавить категория',
+		'archiving' => 'Архивирование',
+		'dynamic_opml' => array(
+			'_' => 'Dynamic OPML',	// TODO
+			'help' => 'Provide the URL to an <a href=http://opml.org/ target=_blank>OPML file</a> to dynamically populate this category with feeds',	// TODO
+		),
+		'empty' => 'Пустая категория',
+		'information' => 'Информация',
+		'opml_url' => 'OPML URL',	// TODO
+		'position' => 'Положение отображения',
+		'position_help' => 'Влияет на порядок отображения категорий',
+		'title' => 'Заголовок',
+	),
+	'feed' => array(
+		'accept_cookies' => 'Accept cookies',	// TODO
+		'accept_cookies_help' => 'Allow the feed server to set cookies (stored in memory for the duration of the request only)',	// TODO
+		'add' => 'Добавить RSS-ленту',
+		'advanced' => 'Дополнительно',
+		'archiving' => 'Архивирование',
+		'auth' => array(
+			'configuration' => 'Логин',
+			'help' => 'Разрешить доступ к HTTP защищённым RSS-лентам',
+			'http' => 'HTTP аутентификация',
+			'password' => 'Пароль HTTP',
+			'username' => 'Имя пользователя HTTP',
+		),
+		'clear_cache' => 'Всегда очищать кэш',
+		'content_action' => array(
+			'_' => 'Действие с содержимым, когда извлекается содержимое статьи',
+			'append' => 'Добавить после существующего содержимого',
+			'prepend' => 'Добавить перед существующим содержимым',
+			'replace' => 'Заменить существующее содержимое',
+		),
+		'css_cookie' => 'Использовать куки при извлечении содержимого статьи',
+		'css_cookie_help' => 'Пример: <kbd>foo=bar; gdpr_consent=true; cookie=value</kbd>',
+		'css_help' => 'Получает усечённые RSS-ленты (осторожно, требует больше времени!)',
+		'css_path' => 'CSS селектор статьи на сайте',
+		'css_path_filter' => array(
+			'_' => 'CSS selector of the elements to remove',	// TODO
+			'help' => 'A CSS selector may be a list such as: <kbd>.footer, .aside</kbd>',	// TODO
+		),
+		'description' => 'Описание',
+		'empty' => 'Лента пустая. Пожалуйста, убедитесь, что её до сих пор обслуживают.',
+		'error' => 'С этой лентой возникла проблема. Пожалуйста, убедитесь, что она всегда досягаема. Затем снова обновите её.',
+		'filteractions' => array(
+			'_' => 'Действия фильтрации',
+			'help' => 'Введите по одному поисковому фильтру в строке.',
+		),
+		'information' => 'Информация',
+		'keep_min' => 'Оставлять статей не менее',
+		'kind' => array(
+			'_' => 'Тип источника ленты',
+			'html_xpath' => array(
+				'_' => 'HTML + XPath (парсинг веб-страниц)',
+				'feed_title' => array(
+					'_' => 'заголовка ленты',
+					'help' => 'Пример: <code>//title</code> или статичная строка: <code>"Моя пользовательская лента"</code>',
+				),
+				'help' => '<dfn><a href="https://www.w3.org/TR/xpath-10/" target="_blank">XPath 1.0</a></dfn> – стандартный язык запросов для опытных пользователей, который поддерживается в FreshRSS для парсинга веб-страниц.',
+				'item' => array(
+					'_' => 'поиска новых <strong>элементов</strong><br /><small>(самое важное)</small>',
+					'help' => 'Пример: <code>//div[@class="news-item"]</code>',
+				),
+				'item_author' => array(
+					'_' => 'автора элемента',
+					'help' => 'Может также быть статической строкой. Пример: <code>"Аноним"</code>',
+				),
+				'item_categories' => 'тегов элемента',
+				'item_content' => array(
+					'_' => 'содержимого элемента',
+					'help' => 'Пример, чтобы взять элемент целиком: <code>.</code>',
+				),
+				'item_thumbnail' => array(
+					'_' => 'эскиза элемента',
+					'help' => 'Пример: <code>descendant::img/@src</code>',
+				),
+				'item_timestamp' => array(
+					'_' => 'даты элемента',
+					'help' => 'Результат будет распарсен с <a href="https://php.net/strtotime" target="_blank"><code>strtotime()</code></a>',
+				),
+				'item_title' => array(
+					'_' => 'заголовка элемента',
+					'help' => 'Используйте, в частности, <a href="https://developer.mozilla.org/docs/Web/XPath/Axes" target="_blank">ось XPath</a> <code>descendant::</code>, наподобие <code>descendant::h2</code>',
+				),
+				'item_uid' => array(
+					'_' => 'item unique ID',	// TODO
+					'help' => 'Optional. Example: <code>descendant::div/@data-uri</code>',	// TODO
+				),
+				'item_uri' => array(
+					'_' => 'ссылки элемента (URL)',
+					'help' => 'Пример: <code>descendant::a/@href</code>',
+				),
+				'relative' => 'XPath (относительно элемента) для:',
+				'xpath' => 'XPath для:',
+			),
+			'rss' => 'RSS / Atom (по умолчанию)',
+		),
+		'maintenance' => array(
+			'clear_cache' => 'Очистить кэш',
+			'clear_cache_help' => 'Очистить кэш для этой ленты.',
+			'reload_articles' => 'Перезагрузить статьи',
+			'reload_articles_help' => 'Перезагрузить столько статей и извлечь полное содержимое, если задан селектор.',
+			'title' => 'Обслуживание',
+		),
+		'max_http_redir' => 'Max HTTP redirects',	// TODO
+		'max_http_redir_help' => 'Set to 0 or leave blank to disable, -1 for unlimited redirects',	// TODO
+		'moved_category_deleted' => 'Когда вы удаляете категорию, ленты категории автоматически попадают в категорию <em>%s</em>.',
+		'mute' => 'заглушить',
+		'no_selected' => 'Ленты не выбраны.',
+		'number_entries' => '%d статей',
+		'priority' => array(
+			'_' => 'Видимость',
+			'archived' => 'Не показывать (архивировано)',
+			'main_stream' => 'Показывать в основном потоке',
+			'normal' => 'Показывать в категории ленты',
+		),
+		'proxy' => 'Указать прокси для извлечения этой ленты',
+		'proxy_help' => 'Выберите протокол (например, SOCKS5) и введите адрес прокси (например, <kbd>127.0.0.1:1080</kbd>)',
+		'selector_preview' => array(
+			'show_raw' => 'Показать исходный код',
+			'show_rendered' => 'Показать содержимое',
+		),
+		'show' => array(
+			'all' => 'Показать все ленты',
+			'error' => 'Показать только ленты с ошибками',
+		),
+		'showing' => array(
+			'error' => 'Показываются только ленты с ошибками',
+		),
+		'ssl_verify' => 'Проверять безопасность SSL',
+		'stats' => 'Статистика',
+		'think_to_add' => 'Вы можете добавить ленты.',
+		'timeout' => 'Таймаут в секундах',
+		'title' => 'Заголовок',
+		'title_add' => 'Добавить RSS-ленту',
+		'ttl' => 'Не обновлять автоматически чаще, чем каждые',
+		'url' => 'URL ленты',
+		'useragent' => 'Указать юзерагент для извлечения лент',
+		'useragent_help' => 'Пример: <kbd>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0)</kbd>',
+		'validator' => 'Проверить валидность ленты',
+		'website' => 'URL сайта',
+		'websub' => 'Моментальные оповещения посредством WebSub',
+	),
+	'import_export' => array(
+		'export' => 'Экспорт',
+		'export_labelled' => 'Экспортировать ваши помеченные статьи',
+		'export_opml' => 'Экспортировать список лент (OPML)',
+		'export_starred' => 'Экспортировать ваше избранное',
+		'feed_list' => 'Список из %s статей',
+		'file_to_import' => 'Файл для импорта<br />(OPML, JSON or ZIP)',
+		'file_to_import_no_zip' => 'Файл для импорта<br />(OPML or JSON)',
+		'import' => 'Импорт',
+		'starred_list' => 'Список избранных статей',
+		'title' => 'Импорт / экспорт',
+	),
+	'menu' => array(
+		'add' => 'Добавить ленту или категорию',
+		'import_export' => 'Импорт / экспорт',
+		'label_management' => 'Управление метками',
+		'stats' => array(
+			'idle' => 'Неактивные ленты',
+			'main' => 'Основная статистика',
+			'repartition' => 'Расределение статей',
+		),
+		'subscription_management' => 'Управление подписками',
+		'subscription_tools' => 'Инструменты подписки',
+	),
+	'tag' => array(
+		'name' => 'Название',
+		'new_name' => 'Новое название',
+		'old_name' => 'Старое название',
+	),
+	'title' => array(
+		'_' => 'Управление подписками',
+		'add' => 'Добавить ленту или категорию',
+		'add_category' => 'Добавить категорию',
+		'add_dynamic_opml' => 'Add dynamic OPML',	// TODO
+		'add_feed' => 'Добавить ленту',
+		'add_label' => 'Добавить метку',
+		'delete_label' => 'Удалить метку',
+		'feed_management' => 'Управление RSS-лентами',
+		'rename_label' => 'Переименовать метку',
+		'subscription_tools' => 'Инструменты подписки',
+	),
+);
